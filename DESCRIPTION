@@ -8,6 +8,10 @@ Authors@R:
            email = "yxc1118@case.edu",
            comment = c(ORCID = "0000-0002-4553-4212"))
 Description: Contains functions for loading National Inpatient Sample .ASC files into R based on procedure or diagnosis codes and analysing hospitalization charges and adjusting for inflation within R.
+Imports:
+    dplyr,
+    stringr,
+    LaF
 License: `use_gpl3_license()`
 Encoding: UTF-8
 LazyData: true
